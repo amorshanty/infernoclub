@@ -5,4 +5,4 @@
 2. `npm install`
 3. `gulp`
 4. Check `build` folder and find the created css files
-# tiendeo
+# infernoclub
