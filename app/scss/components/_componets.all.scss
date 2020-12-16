@@ -6,6 +6,13 @@ Organism
 --------------------------------------------------------------------------------------**/
 
 @import 'organisms/_bodyContent.scss';
+@import 'organisms/_header.scss';
+@import 'organisms/_aboutUs.scss';
+@import 'organisms/_blockImg.scss';
+@import 'organisms/_theProduct.scss';
+@import 'organisms/_findUs.scss';
+@import 'organisms/_playlist.scss';
+@import 'organisms/_video.scss';
 
 
 /**--------------------------------------------------------------------------------------
@@ -15,5 +22,4 @@ Template
 --------------------------------------------------------------------------------------**/
 
 @import 'templates/_header.scss';
-
 @import 'templates/_footer.scss';

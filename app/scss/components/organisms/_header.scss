@@ -1,0 +1,47 @@
+.header {
+  background-color: #000000ad;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  z-index: 9;
+
+  &--content {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+  }
+
+  &--logo {
+    margin-bottom: 5px;
+
+    img {
+      height: 30px;
+    }
+  }
+
+  &--links {
+    flex-grow: 3;
+    display: flex;
+    justify-content: flex-end;
+
+    @media only screen and (max-width:768px) {
+      display: none;
+    }
+
+    a {
+      font-family: Dosis;
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+      margin-right: 50px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

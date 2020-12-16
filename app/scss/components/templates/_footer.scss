@@ -4,37 +4,78 @@ Footer (Template)
 
 ------------------------------------------------------------------------------------*/
 
-.t-footer {
-    min-height: 40px;
-    padding: 10px 0;
+.footer {
+  background-color: #DC5826;
+  padding: 20px;
+  display: flex;
+
+  &__social {
+    flex-grow: 4;
+
+    @media only screen and (max-width:768px) {
+      text-align: center;
+      margin-bottom: 14px;
+    }
 
     a {
-        margin: 0 5px;
-        color: $color-gray;
+      margin-right: 20px;
 
-        &:hover {
-            color: $color-gray;
+      &:last-child {
+        margin-right: 0;
+      }
+
+      img {
+        height: 16px;
+      }
+
+      @media only screen and (max-width:768px) {
+        margin-right: 28px;
+
+        img {
+          height: 22px;
         }
+      }
     }
-}
+  }
 
-.t-footer--gray {
-    background: $color-soft-gray;
-    border-top: 1px solid $color-soft-gray-two;
-}
+  hr {
+    width: 70%;
+    opacity: 0.3;
+  }
 
-.t-footer--full-width {
-    width: 100%;
-}
+  &__links {
+    align-self: flex-end;
 
-@media only screen and (max-width: 768px) {
+    a {
+      color: #E4E2E2;
+      margin-right: 80px;
+      font-family: Dosis;
+      font-weight: 600;
+      text-transform: uppercase;
 
-    .t-footer__content {
-        width: 100%;
-        margin-bottom: 10px;
-        
-        &:last-child {
-            margin-bottom: 0;
-        }
+      @media only screen and (max-width:768px) {
+        margin: 0;
+        display: flex;
+        padding: 8px 0;
+        justify-content: center;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+
+      &:hover {
+        color: #141313;
+      }
     }
+  }
+
+  @media only screen and (max-width:768px) {
+    display: block;
+    padding: 30px 20px;
+  }
 }
+
+
+
+

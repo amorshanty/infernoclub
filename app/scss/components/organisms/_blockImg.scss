@@ -1,0 +1,32 @@
+.block-img {
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  min-height: 660px;
+  background-position-y: center;
+
+  @media only screen and (max-width:768px) {
+    min-height: 300px;
+  }
+}
+
+.block-img--1 {
+  background-image: url('bg_01.jpg');
+}
+.block-img--2 {
+  background-image: url('bg_03.jpg');
+}
+.block-img--3 {
+  background-image: url('bg_05.jpg');
+}
+.block-img--6 {
+  background-image: url('bg_06.jpg');
+  display: none;
+  @media only screen and (max-width:768px) {
+    display: block;
+  }
+}
+
+
+
