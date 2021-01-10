@@ -117,3 +117,27 @@
 .find-us--flex {
   position: relative;
 }
+
+
+
+.find-us-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.find-us__cta {
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #E4E2E2;
+  font-size: 25px;
+  padding: 22px 60px;
+  border: 4px solid white;
+
+  &:hover, &:active, &:focus {
+    text-decoration: none;
+    color: #E4E2E2;
+    background-color: #ffffff3b;
+  }
+}

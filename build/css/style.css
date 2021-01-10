@@ -167,7 +167,7 @@ Organism
   display: none; }
   @media only screen and (max-width: 768px) {
     .block-img--6 {
-      display: block; } }
+      display: none; } }
 
 .the-product {
   background-color: #141313; }
@@ -308,6 +308,24 @@ Organism
 
 .find-us--flex {
   position: relative; }
+
+.find-us-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px; }
+
+.find-us__cta {
+  text-transform: uppercase;
+  background-color: transparent;
+  color: #E4E2E2;
+  font-size: 25px;
+  padding: 22px 60px;
+  border: 4px solid white; }
+  .find-us__cta:hover, .find-us__cta:active, .find-us__cta:focus {
+    text-decoration: none;
+    color: #E4E2E2;
+    background-color: #ffffff3b; }
 
 .playlist {
   background-color: #141313; }
